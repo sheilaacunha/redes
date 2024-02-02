@@ -32,7 +32,9 @@ body {
 h1 {
     font-family: 'Dancing Script', cursive;
 }
-
+p{
+    font-size: 12px;
+}
 .sheila {
     border: 10px solid beige;
     border-radius: 50%;
@@ -40,28 +42,22 @@ h1 {
     position: absolute;
     left: calc(50% - 75px);
     top: calc(176px - 75px);
-
 }
-
 .sheila>img {
     border-radius: 50%;
     width: 130px;
 }
-
 .card_nome {
     margin-top: 70px;
 }
-
 .redes>ul {
     padding: 0;
 }
-
 .redes>ul>li {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .redes>ul>li>a {
     border-radius: 30px;
     color: black;
@@ -70,10 +66,7 @@ h1 {
     width: 70%;
     padding: 5px;
     text-align: center;
-
-
 }
-
 .redes>ul>li>a>i {
 
     margin-right: 10px;
@@ -108,13 +101,6 @@ h1 {
     background-color: #6c0bbc;
     color: beige;
 }
-/* @media screen and (max-width: 400px) {
-   .sheila{
-    transform: translate(140px, 65%);
-   }
-
-} */
-
 @media screen and (max-width: 575px) {
     body {
         background-image: none;
