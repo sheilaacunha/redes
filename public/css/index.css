@@ -4,15 +4,12 @@
     text-decoration: none !important;
     font-family: 'Inter', sans-serif;
     color: #392620;
-
 }
-
 body {
-
     background-image: url(../img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
 }
 
 .card {
