@@ -3,8 +3,8 @@
     border: 0;
     text-decoration: none !important;
     font-family: 'Inter', sans-serif;
-    color: #392620;
 }
+
 body {
     background-image: url(../img/background.jpg);
     background-size: cover;
@@ -16,13 +16,17 @@ body {
     width: 30rem;
     background-color: beige;
     position: relative;
-    margin: auto;
+    margin-top: 1rem;
 
+}
+
+.card:hover {
+    box-shadow: -1px 1px 15px #00009C, 3px -1px 2px #FF6EC7;
 }
 
 .card__img {
     object-fit: cover;
-    height: 11rem;
+    height: 14rem;
     max-height: 100%;
     width: 100%;
 }
@@ -30,32 +34,39 @@ body {
 h1 {
     font-family: 'Dancing Script', cursive;
 }
-p{
+
+p {
     font-size: 12px;
 }
+
 .sheila {
     border: 10px solid beige;
     border-radius: 50%;
-    width: 150px;
+    width: 220px;
     position: absolute;
-    left: calc(50% - 75px);
-    top: calc(176px - 75px);
+    left: calc(50% - 110px);
+    top: calc(200px - 110px);
 }
+
 .sheila>img {
     border-radius: 50%;
-    width: 130px;
+    width: 200px;
 }
+
 .card_nome {
-    margin-top: 70px;
+    margin-top: 80px;
 }
+
 .redes>ul {
     padding: 0;
 }
+
 .redes>ul>li {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .redes>ul>li>a {
     border-radius: 30px;
     color: black;
@@ -65,6 +76,7 @@ p{
     padding: 5px;
     text-align: center;
 }
+
 .redes>ul>li>a>i {
 
     margin-right: 10px;
@@ -99,9 +111,35 @@ p{
     background-color: #6c0bbc;
     color: beige;
 }
+
 @media screen and (max-width: 575px) {
     body {
         background-image: none;
+    }
+
+    .card {
+        margin-top: 0;
+
+    }
+
+    .card__img {
+        height: 12rem;
+
+    }
+
+    .sheila {
+        width: 200px;
+        left: calc(50% - 100px);
+        top: calc(180px - 100px);
+    }
+
+    .sheila>img {
+
+        width: 180px;
+    }
+
+    .card_nome {
+        margin-top: 90px;
     }
 
 }
